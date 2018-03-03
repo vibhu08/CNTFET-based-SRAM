@@ -1,0 +1,258 @@
+ ****** HSPICE -- H-2013.03 64-BIT (Mar  7 2013) win64 ******                   
+  Copyright (C) 2013 Synopsys, Inc. All Rights Reserved.                        
+  Unpublished-rights reserved under US copyright laws.
+  This program is protected by law and is subject to the
+  terms and conditions of the license agreement from Synopsys.
+  Use of this program is your acceptance to be bound by the
+  license agreement. HSPICE is the trademark of Synopsys, Inc.
+  Input File: sram32nmtry.sp                                                    
+  Command line options: -i sram32nmtry.sp -o sram32nmtry.lis
+  lic:  
+  lic: FLEXlm: v10.9.8 
+  lic: USER:   Dell                 HOSTNAME: DESKTOP-O3DHVG1 
+  lic: HOSTID: "28f10e041fd4 00a0c6000017 a0d37a293ca4 a0d37a293ca5" PID:      6
+ 908 
+  lic: Using FLEXlm license file: 
+  lic: C:\synopsys\Hspice_H-2013.03\lic.dat\lic.lic 
+  lic: Checkout 1 hspice 
+  lic: License/Maintenance for hspice will expire on 31-dec-2019/2019.12 
+  lic: NODE LOCKED license on hostid "28f10e041fd4 00a0c6000017 a0d37a293ca4 a0d
+ 37a293ca5" 
+  lic:   
+ Init: read install configuration file: C:\synopsys\Hspice_H-2013.03\meta.cfg
+ scientific notation:
+ a=10**-18  f=10**-15  p=10**-12  n=10**-9  u=10**-6
+ m=10**-3   k=10**3    x=10**6    g=10**9 
+1****** HSPICE -- H-2013.03 64-BIT (Mar  7 2013) win64 ******                   
+ ******  
+ 'inverter'
+
+  ******  circuit name directory
+ circuit number to circuit name directory
+   number circuitname                     definition         multiplier
+        0 main circuit
+
+
+ circuit parameter definitions
+  parameter          =  value 
+
+     0:temp                                                    = 2.700e+01      
+     0:m_cnt                                                   = 1.000e+00      
+     0:wg                                                      = 4.000e-09      
+     0:cb                                                      = 4.000e-11      
+     0:lg                                                      = 3.200e-08      
+     0:lgef                                                    = 1.000e-07      
+     0:vfn                                                     = 0.000e+00      
+     0:vfp                                                     = 0.000e+00      
+     0:m                                                       = 0.000e+00      
+     0:n                                                       = 1.900e+01      
+     0:hox                                                     = 4.000e-09      
+     1:tox                                                     = 4.000e-09      
+     1:csub                                                    = 4.000e-11      
+     1:pitch                                                   = 2.000e-08      
+     1:n1                                                      = 0.000e+00      
+     1:n2                                                      = 1.900e+01      
+     1:vfbp                                                    = 0.000e+00      
+     1:kgate                                                   = 1.600e+01      
+     1:dout                                                    = 0.000e+00      
+     1:sout                                                    = 0.000e+00      
+     1:tubes                                                   = 1.000e+00      
+     1:lch                                                     = 3.200e-08      
+     1:lgeff                                                   = 1.000e-07      
+     1:lss                                                     = 3.200e-08      
+     1:ldd                                                     = 3.200e-08      
+     2:tox                                                     = 4.000e-09      
+     2:csub                                                    = 4.000e-11      
+     2:pitch                                                   = 2.000e-08      
+     2:n1                                                      = 0.000e+00      
+     2:n2                                                      = 1.000e+01      
+     2:vfbp                                                    = 0.000e+00      
+     2:kgate                                                   = 1.600e+01      
+     2:dout                                                    = 0.000e+00      
+     2:sout                                                    = 0.000e+00      
+     2:tubes                                                   = 1.000e+00      
+     2:lch                                                     = 3.200e-08      
+     2:lgeff                                                   = 1.000e-07      
+     2:lss                                                     = 3.200e-08      
+     2:ldd                                                     = 3.200e-08      
+     3:tox                                                     = 4.000e-09      
+     3:csub                                                    = 4.000e-11      
+     3:pitch                                                   = 2.000e-08      
+     3:n1                                                      = 0.000e+00      
+     3:n2                                                      = 1.300e+01      
+     3:vfbp                                                    = 0.000e+00      
+     3:kgate                                                   = 1.600e+01      
+     3:dout                                                    = 0.000e+00      
+     3:sout                                                    = 0.000e+00      
+     3:tubes                                                   = 1.000e+00      
+     3:lch                                                     = 3.200e-08      
+     3:lgeff                                                   = 1.000e-07      
+     3:lss                                                     = 3.200e-08      
+     3:ldd                                                     = 3.200e-08      
+     4:tox                                                     = 4.000e-09      
+     4:csub                                                    = 4.000e-11      
+     4:vfbn                                                    = 0.000e+00      
+     4:pitch                                                   = 2.000e-08      
+     4:n1                                                      = 0.000e+00      
+     4:n2                                                      = 1.300e+01      
+     4:kgate                                                   = 1.600e+01      
+     4:dout                                                    = 0.000e+00      
+     4:sout                                                    = 0.000e+00      
+     4:tubes                                                   = 1.000e+00      
+     4:lch                                                     = 3.200e-08      
+     4:lgeff                                                   = 1.000e-07      
+     4:lss                                                     = 3.200e-08      
+     4:ldd                                                     = 3.200e-08      
+     5:tox                                                     = 4.000e-09      
+     5:csub                                                    = 4.000e-11      
+     5:vfbn                                                    = 0.000e+00      
+     5:pitch                                                   = 2.000e-08      
+     5:n1                                                      = 0.000e+00      
+     5:n2                                                      = 1.900e+01      
+     5:kgate                                                   = 1.600e+01      
+     5:dout                                                    = 0.000e+00      
+     5:sout                                                    = 0.000e+00      
+     5:tubes                                                   = 1.000e+00      
+     5:lch                                                     = 3.200e-08      
+     5:lgeff                                                   = 1.000e-07      
+     5:lss                                                     = 3.200e-08      
+     5:ldd                                                     = 3.200e-08      
+     6:tox                                                     = 4.000e-09      
+     6:csub                                                    = 4.000e-11      
+     6:vfbn                                                    = 0.000e+00      
+     6:pitch                                                   = 2.000e-08      
+     6:n1                                                      = 0.000e+00      
+     6:n2                                                      = 1.000e+01      
+     6:kgate                                                   = 1.600e+01      
+     6:dout                                                    = 0.000e+00      
+     6:sout                                                    = 0.000e+00      
+     6:tubes                                                   = 1.000e+00      
+     6:lch                                                     = 3.200e-08      
+     6:lgeff                                                   = 1.000e-07      
+     6:lss                                                     = 3.200e-08      
+     6:ldd                                                     = 3.200e-08      
+
+
+
+
+ constants  - tnom         kt           vt           gapsi        ni
+            2.9815e+02   4.1163e-21   2.5692e-02   1.1156e+00   1.2565e+16 
+  **info** (sram32nmtry.sp:123) DC voltage reset to initial transient source value              in source        0:vrwl                new dc=  0.0000D+00
+
+ **warning**  associated with encrypted block(s) were suppressed due to encrypted content
+
+  **warning** (sram32nmtry.sp:127) Unable to find referenced node n5; Output variable ignored. Specify a valid node.
+1****** HSPICE -- H-2013.03 64-BIT (Mar  7 2013) win64 ******                   
+ ******  
+ 'inverter'
+
+  ******  circuit element summary tnom=  25.000 temp=  25.000 *****
+
+
+ **** independent sources
+
+     name         node1        node2      dc volt    ac mag    ac phase    type
+  vdd  vdd               0                  9.000e-01  0.000e+00  0.000e+00 dc   
+  vrwl  rwl               0                  0.000e+00  0.000e+00  0.000e+00 pwl  
+                time        value
+
+                 0.000e+00    0.000e+00
+                 1.250e-08    0.000e+00
+                 1.260e-08    9.000e-01
+                 1.500e-08    9.000e-01
+                 1.510e-08    0.000e+00
+                 2.250e-08    0.000e+00
+                 2.260e-08    9.000e-01
+                 2.500e-08    9.000e-01
+                 2.510e-08    0.000e+00
+                 3.250e-08    0.000e+00
+                 3.260e-08    9.000e-01
+                 3.500e-08    9.000e-01
+
+
+  vrwlb  rwlb              0                  9.000e-01  0.000e+00  0.000e+00 pwl  
+                time        value
+
+                 0.000e+00    9.000e-01
+                 1.250e-08    9.000e-01
+                 1.260e-08    0.000e+00
+                 1.500e-08    0.000e+00
+                 1.510e-08    9.000e-01
+                 2.250e-08    9.000e-01
+                 2.260e-08    0.000e+00
+                 2.500e-08    0.000e+00
+                 2.510e-08    9.000e-01
+                 3.250e-08    9.000e-01
+                 3.260e-08    0.000e+00
+                 3.500e-08    0.000e+00
+
+
+  vwbl  wbl               0                  0.000e+00  0.000e+00  0.000e+00 pwl  
+                time        value
+
+                 0.000e+00    0.000e+00
+                 5.000e-09    0.000e+00
+                 5.100e-09    4.500e-01
+                 1.000e-08    4.500e-01
+                 1.010e-08    0.000e+00
+                 1.500e-08    0.000e+00
+                 1.510e-08    9.000e-01
+                 2.000e-08    9.000e-01
+                 2.010e-08    0.000e+00
+                 3.000e-08    0.000e+00
+                 4.000e-08    0.000e+00
+
+
+  vwwl  wwl               0                  0.000e+00  0.000e+00  0.000e+00 pwl  
+                time        value
+
+                 0.000e+00    0.000e+00
+                 7.500e-09    0.000e+00
+                 7.600e-09    9.000e-01
+                 1.000e-08    9.000e-01
+                 1.010e-08    0.000e+00
+                 1.750e-08    0.000e+00
+                 1.760e-08    9.000e-01
+                 2.000e-08    9.000e-01
+                 2.010e-08    0.000e+00
+                 2.750e-08    0.000e+00
+                 2.760e-08    9.000e-01
+                 3.000e-08    9.000e-01
+                 3.010e-08    0.000e+00
+                 4.000e-08    0.000e+00
+
+
+  vwwlb  wwlb              0                  9.000e-01  0.000e+00  0.000e+00 pwl  
+                time        value
+
+                 0.000e+00    9.000e-01
+                 7.500e-09    9.000e-01
+                 7.600e-09    0.000e+00
+                 1.000e-08    0.000e+00
+                 1.010e-08    9.000e-01
+                 1.750e-08    9.000e-01
+                 1.760e-08    0.000e+00
+                 2.000e-08    0.000e+00
+                 2.010e-08    9.000e-01
+                 2.750e-08    9.000e-01
+                 2.760e-08    0.000e+00
+                 3.000e-08    0.000e+00
+                 3.010e-08    9.000e-01
+                 4.000e-08    9.000e-01
+
+
+
+
+ **** subcircuit calls
+    name        subcircuit         external nodes
+
+
+         0:xcnt7    pcnfet          0:vdd         0:q           0:n2      
+                               0:n2      
+
+
+         0:xcnt8    pcnfet          0:vdd         0:q           0:qb      
+                               0:qb      
+
+
+         0:xcnt6    pcnfet          0:qb          0:qb          0:n2      
