@@ -1,0 +1,364 @@
+ ****** HSPICE -- H-2013.03 64-BIT (Mar  7 2013) win64 ******                   
+  Copyright (C) 2013 Synopsys, Inc. All Rights Reserved.                        
+  Unpublished-rights reserved under US copyright laws.
+  This program is protected by law and is subject to the
+  terms and conditions of the license agreement from Synopsys.
+  Use of this program is your acceptance to be bound by the
+  license agreement. HSPICE is the trademark of Synopsys, Inc.
+  Input File: sram180nmsnm.sp                                                   
+  Command line options: -i sram180nmsnm.sp -o sram180nmsnm.lis
+  lic:  
+  lic: FLEXlm: v10.9.8 
+  lic: USER:   Dell                 HOSTNAME: DESKTOP-O3DHVG1 
+  lic: HOSTID: "28f10e041fd4 a0d37a293ca4 a0d37a293ca5" PID:      11500 
+  lic: Using FLEXlm license file: 
+  lic: C:\synopsys\Hspice_H-2013.03\lic.dat\lic.lic 
+  lic: Checkout 1 hspice 
+  lic: License/Maintenance for hspice will expire on 31-dec-2019/2019.12 
+  lic: NODE LOCKED license on hostid "28f10e041fd4 a0d37a293ca4 a0d37a293ca5" 
+  lic:   
+ Init: read install configuration file: C:\synopsys\Hspice_H-2013.03\meta.cfg
+ scientific notation:
+ a=10**-18  f=10**-15  p=10**-12  n=10**-9  u=10**-6
+ m=10**-3   k=10**3    x=10**6    g=10**9 
+1****** HSPICE -- H-2013.03 64-BIT (Mar  7 2013) win64 ******                   
+ ******  
+ 'inverter'
+
+  ******  circuit name directory
+ circuit number to circuit name directory
+   number circuitname                     definition         multiplier
+        0 main circuit
+
+
+ circuit parameter definitions
+  parameter          =  value 
+
+     0:temp                                                    = 2.700e+01      
+     0:m_cnt                                                   = 1.000e+00      
+     0:wg                                                      = 4.000e-09      
+     0:cb                                                      = 4.000e-11      
+     0:lg                                                      = 1.800e-07      
+     0:lgef                                                    = 2.000e-07      
+     0:vfn                                                     = 0.000e+00      
+     0:vfp                                                     = 0.000e+00      
+     0:m                                                       = 1.100e+01      
+     0:n                                                       = 3.000e+00      
+     0:hox                                                     = 4.000e-09      
+     1:tox                                                     = 4.000e-09      
+     1:csub                                                    = 4.000e-11      
+     1:pitch                                                   = 2.000e-08      
+     1:n1                                                      = 0.000e+00      
+     1:n2                                                      = 1.900e+01      
+     1:vfbp                                                    = 0.000e+00      
+     1:kgate                                                   = 1.600e+01      
+     1:dout                                                    = 0.000e+00      
+     1:sout                                                    = 0.000e+00      
+     1:tubes                                                   = 1.000e+00      
+     1:lch                                                     = 1.800e-07      
+     1:lgeff                                                   = 2.000e-07      
+     1:lss                                                     = 3.200e-08      
+     1:ldd                                                     = 3.200e-08      
+     2:tox                                                     = 4.000e-09      
+     2:csub                                                    = 4.000e-11      
+     2:pitch                                                   = 2.000e-08      
+     2:n1                                                      = 0.000e+00      
+     2:n2                                                      = 1.000e+01      
+     2:vfbp                                                    = 0.000e+00      
+     2:kgate                                                   = 1.600e+01      
+     2:dout                                                    = 0.000e+00      
+     2:sout                                                    = 0.000e+00      
+     2:tubes                                                   = 1.000e+00      
+     2:lch                                                     = 1.800e-07      
+     2:lgeff                                                   = 2.000e-07      
+     2:lss                                                     = 3.200e-08      
+     2:ldd                                                     = 3.200e-08      
+     3:tox                                                     = 4.000e-09      
+     3:csub                                                    = 4.000e-11      
+     3:pitch                                                   = 2.000e-08      
+     3:n1                                                      = 0.000e+00      
+     3:n2                                                      = 1.300e+01      
+     3:vfbp                                                    = 0.000e+00      
+     3:kgate                                                   = 1.600e+01      
+     3:dout                                                    = 0.000e+00      
+     3:sout                                                    = 0.000e+00      
+     3:tubes                                                   = 1.000e+00      
+     3:lch                                                     = 1.800e-07      
+     3:lgeff                                                   = 2.000e-07      
+     3:lss                                                     = 3.200e-08      
+     3:ldd                                                     = 3.200e-08      
+     4:tox                                                     = 4.000e-09      
+     4:csub                                                    = 4.000e-11      
+     4:vfbn                                                    = 0.000e+00      
+     4:pitch                                                   = 2.000e-08      
+     4:n1                                                      = 0.000e+00      
+     4:n2                                                      = 1.300e+01      
+     4:kgate                                                   = 1.600e+01      
+     4:dout                                                    = 0.000e+00      
+     4:sout                                                    = 0.000e+00      
+     4:tubes                                                   = 1.000e+00      
+     4:lch                                                     = 1.800e-07      
+     4:lgeff                                                   = 2.000e-07      
+     4:lss                                                     = 3.200e-08      
+     4:ldd                                                     = 3.200e-08      
+     5:tox                                                     = 4.000e-09      
+     5:csub                                                    = 4.000e-11      
+     5:vfbn                                                    = 0.000e+00      
+     5:pitch                                                   = 2.000e-08      
+     5:n1                                                      = 0.000e+00      
+     5:n2                                                      = 1.900e+01      
+     5:kgate                                                   = 1.600e+01      
+     5:dout                                                    = 0.000e+00      
+     5:sout                                                    = 0.000e+00      
+     5:tubes                                                   = 1.000e+00      
+     5:lch                                                     = 1.800e-07      
+     5:lgeff                                                   = 2.000e-07      
+     5:lss                                                     = 3.200e-08      
+     5:ldd                                                     = 3.200e-08      
+     6:tox                                                     = 4.000e-09      
+     6:csub                                                    = 4.000e-11      
+     6:vfbn                                                    = 0.000e+00      
+     6:pitch                                                   = 2.000e-08      
+     6:n1                                                      = 0.000e+00      
+     6:n2                                                      = 1.000e+01      
+     6:kgate                                                   = 1.600e+01      
+     6:dout                                                    = 0.000e+00      
+     6:sout                                                    = 0.000e+00      
+     6:tubes                                                   = 1.000e+00      
+     6:lch                                                     = 1.800e-07      
+     6:lgeff                                                   = 2.000e-07      
+     6:lss                                                     = 3.200e-08      
+     6:ldd                                                     = 3.200e-08      
+
+
+
+
+ constants  - tnom         kt           vt           gapsi        ni
+            2.9815e+02   4.1163e-21   2.5692e-02   1.1156e+00   1.2565e+16 
+
+ **warning**  associated with encrypted block(s) were suppressed due to encrypted content
+
+1****** HSPICE -- H-2013.03 64-BIT (Mar  7 2013) win64 ******                   
+ ******  
+ 'inverter'
+
+  ******  circuit element summary tnom=  25.000 temp=  25.000 *****
+
+
+ **** independent sources
+
+     name         node1        node2      dc volt    ac mag    ac phase    type
+  vdd  vdd               0                  9.000e-01  0.000e+00  0.000e+00 dc   
+  vin  in                0                  9.000e-01  0.000e+00  0.000e+00 dc   
+
+
+ **** subcircuit calls
+    name        subcircuit         external nodes
+
+
+         0:xcnt5    pcnfet          0:vdd         0:in          0:n2      
+                               0:n2      
+
+
+         0:xcnt6    pcnfet          0:vdd         0:in          0:out     
+                               0:out     
+
+
+         0:xcnt4    pcnfet          0:out         0:out         0:n2      
+                               0:n2      
+
+
+         0:xcnt3    ncnfet          0:out         0:out         0:n1      
+                               0:n1      
+
+
+         0:xcnt1    ncnfet          0:n1          0:in          0:0       
+                               0:0       
+
+
+         0:xcnt2    ncnfet          0:out         0:in          0:0       
+                               0:0       
+
+
+  
+1****** HSPICE -- H-2013.03 64-BIT (Mar  7 2013) win64 ******                   
+ ******  
+ 'inverter'
+
+  ******  element node table
+                            
+ 0                vdd vin   
+ in               vin       
+ vdd              vdd       
+  **warning** PIVOT option setting is simplified, pivot = 13 is obsolete,
+              automatically switch to pivot = 1.
+ *****************************************************************
+ ******  option summary
+ ******
+ runlvl  = 3         bypass  = 2         
+  Opening plot unit= 79
+ file=sram180nmsnm.pa0
+
+ convergence problems in dc sweep curves at  0.27000    
+  resimulating with dc convergence controls
+
+ convergence problem in dc sweep curve at 0.27000    
+ pseudo tran is tried
+
+  *** initial damped pseudo transient completed. ***
+  *** final try started ***
+ **info** remove gshunt failed
+  **info** try to load final result like nodeset
+
+ **info** gmin ramping for pseudo-tran
+ final try failed.
+
+  *** final try succeeded *** 
+ ******  
+ 'inverter'
+
+  ******  dc transfer curves tnom=  25.000 temp=  25.000 *****
+x
+
+        volt    voltage      voltage    
+                    in           out    
+  0.0000e+00    0.000e+00    9.000e-01  
+  1.0000e-02    1.000e-02    9.000e-01  
+  2.0000e-02    2.000e-02    9.000e-01  
+  3.0000e-02    3.000e-02    9.000e-01  
+  4.0000e-02    4.000e-02    9.000e-01  
+  5.0000e-02    5.000e-02    9.000e-01  
+  6.0000e-02    6.000e-02    9.000e-01  
+  7.0000e-02    7.000e-02    9.000e-01  
+  8.0000e-02    8.000e-02    8.999e-01  
+  9.0000e-02    9.000e-02    8.999e-01  
+  1.0000e-01    1.000e-01    8.999e-01  
+  1.1000e-01    1.100e-01    8.998e-01  
+  1.2000e-01    1.200e-01    8.998e-01  
+  1.3000e-01    1.300e-01    8.997e-01  
+  1.4000e-01    1.400e-01    8.996e-01  
+  1.5000e-01    1.500e-01    8.994e-01  
+  1.6000e-01    1.600e-01    8.991e-01  
+  1.7000e-01    1.700e-01    8.987e-01  
+  1.8000e-01    1.800e-01    8.982e-01  
+  1.9000e-01    1.900e-01    8.974e-01  
+  2.0000e-01    2.000e-01    8.962e-01  
+  2.1000e-01    2.100e-01    8.945e-01  
+  2.2000e-01    2.200e-01    8.920e-01  
+  2.3000e-01    2.300e-01    8.884e-01  
+  2.4000e-01    2.400e-01    8.830e-01  
+  2.5000e-01    2.500e-01    8.744e-01  
+  2.6000e-01    2.600e-01    8.586e-01  
+  2.7000e-01    2.700e-01    4.775e-01  
+  2.8000e-01    2.800e-01    4.717e-01  
+  2.9000e-01    2.900e-01    4.673e-01  
+  3.0000e-01    3.000e-01    4.639e-01  
+  3.1000e-01    3.100e-01    4.613e-01  
+  3.2000e-01    3.200e-01    4.593e-01  
+  3.3000e-01    3.300e-01    4.577e-01  
+  3.4000e-01    3.400e-01    4.564e-01  
+  3.5000e-01    3.500e-01    4.553e-01  
+  3.6000e-01    3.600e-01    4.544e-01  
+  3.7000e-01    3.700e-01    4.537e-01  
+  3.8000e-01    3.800e-01    4.530e-01  
+  3.9000e-01    3.900e-01    4.524e-01  
+  4.0000e-01    4.000e-01    4.519e-01  
+  4.1000e-01    4.100e-01    4.514e-01  
+  4.2000e-01    4.200e-01    4.509e-01  
+  4.3000e-01    4.300e-01    4.505e-01  
+  4.4000e-01    4.400e-01    4.500e-01  
+  4.5000e-01    4.500e-01    4.495e-01  
+  4.6000e-01    4.600e-01    4.489e-01  
+  4.7000e-01    4.700e-01    4.483e-01  
+  4.8000e-01    4.800e-01    4.476e-01  
+  4.9000e-01    4.900e-01    4.467e-01  
+  5.0000e-01    5.000e-01    4.456e-01  
+  5.1000e-01    5.100e-01    4.442e-01  
+  5.2000e-01    5.200e-01    4.424e-01  
+  5.3000e-01    5.300e-01    4.401e-01  
+  5.4000e-01    5.400e-01    4.371e-01  
+  5.5000e-01    5.500e-01    4.331e-01  
+  5.6000e-01    5.600e-01    4.277e-01  
+  5.7000e-01    5.700e-01    4.201e-01  
+  5.8000e-01    5.800e-01    4.076e-01  
+  5.9000e-01    5.900e-01    1.500e-04  
+  6.0000e-01    6.000e-01    1.145e-04  
+  6.1000e-01    6.100e-01    9.200e-05  
+  6.2000e-01    6.200e-01    7.690e-05  
+  6.3000e-01    6.300e-01    6.631e-05  
+  6.4000e-01    6.400e-01    5.862e-05  
+  6.5000e-01    6.500e-01    5.286e-05  
+  6.6000e-01    6.600e-01    4.842e-05  
+  6.7000e-01    6.700e-01    4.492e-05  
+  6.8000e-01    6.800e-01    4.211e-05  
+  6.9000e-01    6.900e-01    3.981e-05  
+  7.0000e-01    7.000e-01    3.790e-05  
+  7.1000e-01    7.100e-01    3.628e-05  
+  7.2000e-01    7.200e-01    3.491e-05  
+  7.3000e-01    7.300e-01    3.372e-05  
+  7.4000e-01    7.400e-01    3.268e-05  
+  7.5000e-01    7.500e-01    3.177e-05  
+  7.6000e-01    7.600e-01    3.096e-05  
+  7.7000e-01    7.700e-01    3.024e-05  
+  7.8000e-01    7.800e-01    2.959e-05  
+  7.9000e-01    7.900e-01    2.901e-05  
+  8.0000e-01    8.000e-01    2.848e-05  
+  8.1000e-01    8.100e-01    2.800e-05  
+  8.2000e-01    8.200e-01    2.755e-05  
+  8.3000e-01    8.300e-01    2.715e-05  
+  8.4000e-01    8.400e-01    2.677e-05  
+  8.5000e-01    8.500e-01    2.642e-05  
+  8.6000e-01    8.600e-01    2.610e-05  
+  8.7000e-01    8.700e-01    2.580e-05  
+  8.8000e-01    8.800e-01    2.552e-05  
+  8.9000e-01    8.900e-01    2.526e-05  
+  9.0000e-01    9.000e-01    2.502e-05  
+y
+-----------------------------------------------
+
+          ***** job concluded
+1****** HSPICE -- H-2013.03 64-BIT (Mar  7 2013) win64 ******                   
+ ******  
+ 'inverter'
+
+  ******  job statistics summary tnom=  25.000 temp=  25.000 *****
+
+  ******  HSPICE Threads Information  ******
+
+  Command Line Threads Count :     1
+  Available CPU Count        :     4
+  Actual Threads Count       :     1
+
+
+  ******  Circuit Statistics  ******
+  # nodes       =     174 # elements   =     392
+  # resistors   =      72 # capacitors =     174 # inductors   =       0
+  # mutual_inds =       0 # vccs       =      48 # vcvs        =      84
+  # cccs        =       0 # ccvs       =       0 # volt_srcs   =      14
+  # curr_srcs   =       0 # diodes     =       0 # bjts        =       0
+  # jfets       =       0 # mosfets    =       0 # U elements  =       0
+  # T elements  =       0 # W elements =       0 # B elements  =       0
+  # S elements  =       0 # P elements =       0 # va device   =       0
+  # vector_srcs =       0 # N elements =       0
+
+
+  ******  Runtime Statistics (seconds)  ******
+
+  analysis           time    # points   tot. iter  conv.iter
+  op point           0.00           1           0
+  dc sweep          10.23          91        1171
+  readin             0.03
+  errchk             0.11
+  setup              0.00
+  output             0.00
+
+
+           peak memory used         44.23 megabytes
+           total cpu time           10.37 seconds
+           total elapsed time       10.44 seconds
+           job started at     14:25:27 03/01/2018
+           job ended   at     14:25:38 03/01/2018
+
+
+  lic: Release hspice token(s) 
+ lic: total license checkout elapse time:        0.02(s)
